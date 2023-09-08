@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import defaultDataset from './dataset';
 
 function App() {
+  const [answers, setAnswers] = useState([]);
+  const [chats, setChats] = useState([]);
+  const [currentId, setCurrentId] = useState('init');
+  const [dataset, setDataset] = useState(defaultDataset);
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
     </div>
   );
 }
