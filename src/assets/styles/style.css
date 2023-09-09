@@ -28,6 +28,10 @@
     height: 192px;
 }
 
+.c-grid__answer button {
+    width: 100%;
+}
+
 .p-chat__bubble {
     background: #41B6E6;
     border-radius: 4px;

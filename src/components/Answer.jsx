@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 const Answer = (props) => {
     return (
         <Stack direction="row" spacing={2}>
-            <Button variant="contained" color="primary">{props.content}</Button>
+            <Button variant="outlined" color="primary">{props.content}</Button>
         </Stack>
     )
 }
